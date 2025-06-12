@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Configuração da roleta
+    // alterado localmente
     const wheel = document.getElementById('wheel');
     const ball = document.getElementById('ball');
     const spinBtn = document.getElementById('spinBtn');
