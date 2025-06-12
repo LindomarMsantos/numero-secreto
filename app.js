@@ -1,5 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Configuração da roleta
+
+
+     // comentario add direto do github
     const wheel = document.getElementById('wheel');
     const ball = document.getElementById('ball');
     const spinBtn = document.getElementById('spinBtn');
