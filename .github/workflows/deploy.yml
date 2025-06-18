@@ -1,9 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
-    branches:
-      - main  # Aciona o deploy ao dar push na branch main
+  workflow_dispatch:  # Manual trigger ONLY, no branches needed
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -19,4 +20,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .  # Diretório raiz onde está o index.html
           force_orphan: true
-
