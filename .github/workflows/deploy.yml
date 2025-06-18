@@ -18,3 +18,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .  # Diretório raiz onde está o index.html
+          force_orphan: true
+
