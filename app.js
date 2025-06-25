@@ -177,3 +177,4 @@ document.addEventListener('DOMContentLoaded', function() {
     createRouletteNumbers();
     setupBets();
 });
+//add by lindomar
